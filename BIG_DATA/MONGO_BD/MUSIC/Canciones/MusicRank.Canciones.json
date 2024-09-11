@@ -1,0 +1,176 @@
+[{
+  "_id": {
+    "$oid": "64e1012a1f4d880001c1a201"
+  },
+  "title": "Safaera",
+  "duration": "4:55",
+  "album_id": {
+    "$oid": "64e0012a1f4d880001c1a101"
+  },
+  "plays": 350000000
+},
+{
+  "_id": {
+    "$oid": "64e1012a1f4d880001c1a202"
+  },
+  "title": "Yo Perreo Sola",
+  "duration": "3:13",
+  "album_id": {
+    "$oid": "64e0012a1f4d880001c1a101"
+  },
+  "plays": 480000000
+},
+{
+  "_id": {
+    "$oid": "64e1012a1f4d880001c1a203"
+  },
+  "title": "La Difícil",
+  "duration": "2:43",
+  "album_id": {
+    "$oid": "64e0012a1f4d880001c1a101"
+  },
+  "plays": 220000000
+},
+{
+  "_id": {
+    "$oid": "64e1012a1f4d880001c1a204"
+  },
+  "title": "Vete",
+  "duration": "3:11",
+  "album_id": {
+    "$oid": "64e0012a1f4d880001c1a101"
+  },
+  "plays": 500000000
+},
+{
+  "_id": {
+    "$oid": "64e1012a1f4d880001c1a205"
+  },
+  "title": "Dákiti",
+  "duration": "3:25",
+  "album_id": {
+    "$oid": "64e0012a1f4d880001c1a102"
+  },
+  "plays": 950000000
+},
+{
+  "_id": {
+    "$oid": "64e1012a1f4d880001c1a206"
+  },
+  "title": "Booker T",
+  "duration": "2:36",
+  "album_id": {
+    "$oid": "64e0012a1f4d880001c1a102"
+  },
+  "plays": 420000000
+},
+{
+  "_id": {
+    "$oid": "64e1012a1f4d880001c1a207"
+  },
+  "title": "La Noche de Anoche",
+  "duration": "3:23",
+  "album_id": {
+    "$oid": "64e0012a1f4d880001c1a102"
+  },
+  "plays": 570000000
+},
+{
+  "_id": {
+    "$oid": "64e1012a1f4d880001c1a208"
+  },
+  "title": "Maldita Pobreza",
+  "duration": "3:33",
+  "album_id": {
+    "$oid": "64e0012a1f4d880001c1a102"
+  },
+  "plays": 180000000
+},
+{
+  "_id": {
+    "$oid": "64e1012a1f4d880001c1a209"
+  },
+  "title": "Rojo",
+  "duration": "3:25",
+  "album_id": {
+    "$oid": "64e0012a1f4d880001c1a103"
+  },
+  "plays": 600000000
+},
+{
+  "_id": {
+    "$oid": "64e1012a1f4d880001c1a210"
+  },
+  "title": "Morado",
+  "duration": "2:50",
+  "album_id": {
+    "$oid": "64e0012a1f4d880001c1a103"
+  },
+  "plays": 750000000
+},
+{
+  "_id": {
+    "$oid": "64e1012a1f4d880001c1a211"
+  },
+  "title": "Blanco",
+  "duration": "3:00",
+  "album_id": {
+    "$oid": "64e0012a1f4d880001c1a103"
+  },
+  "plays": 300000000
+},
+{
+  "_id": {
+    "$oid": "64e1012a1f4d880001c1a212"
+  },
+  "title": "Amarillo",
+  "duration": "2:37",
+  "album_id": {
+    "$oid": "64e0012a1f4d880001c1a103"
+  },
+  "plays": 450000000
+},
+{
+  "_id": {
+    "$oid": "64e1012a1f4d880001c1a213"
+  },
+  "title": "Mi Gente",
+  "duration": "3:06",
+  "album_id": {
+    "$oid": "64e0012a1f4d880001c1a104"
+  },
+  "plays": 1600000000
+},
+{
+  "_id": {
+    "$oid": "64e1012a1f4d880001c1a214"
+  },
+  "title": "Ahora",
+  "duration": "2:52",
+  "album_id": {
+    "$oid": "64e0012a1f4d880001c1a104"
+  },
+  "plays": 500000000
+},
+{
+  "_id": {
+    "$oid": "64e1012a1f4d880001c1a215"
+  },
+  "title": "Ambiente",
+  "duration": "3:29",
+  "album_id": {
+    "$oid": "64e0012a1f4d880001c1a104"
+  },
+  "plays": 700000000
+},
+{
+  "_id": {
+    "$oid": "64e1012a1f4d880001c1a216"
+  },
+  "title": "X",
+  "duration": "2:54",
+  "album_id": {
+    "$oid": "64e0012a1f4d880001c1a104"
+  },
+  "plays": 1200000000
+}]
