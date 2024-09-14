@@ -1,0 +1,25 @@
+// Consultas #1 - Filtrar los Albums con un "release_year" mayor al año 2020.
+
+db.Albums.find({release_year: { $gt: 2020}});
+
+
+// Consulta #2 - Obtener el nombre de todos los artistas ordenados alfabeticamente.
+
+db.Artistas.find({}, { name: 1, _id: 0 }).sort({ name: 1 })
+
+
+// Consulta #3 - Obtener la Cancion con mayor cantidad de "plays"
+
+db.Canciones.find().sort({ plays: -1 }).limit(1)
+
+
+// Consulta #4 - Suma total de las "plays" de la coleccion Canciones.
+
+db.Canciones.aggregate([
+    {
+      $group: {
+        _id: null, 
+        totalPlays: { $sum: "$plays" } 
+      }
+    }
+  ])
