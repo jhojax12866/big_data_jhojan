@@ -1,0 +1,34 @@
+-- esta consulta filtra una lista de personas que tienen exactamente la canidad de  cargas académicas que quisieramos filtrar
+-- donde se muestra el semestre y la materia asociada que tiene dicha persona
+
+SELECT pi.nombre_persona, s.nombre_semestre, m.nombre_materia
+FROM cargas_academicas ca
+JOIN personas_institutos pi ON ca.personas_institutos_id = pi.id_persona_instituto
+JOIN semestres s ON ca.semestres_id = s.id_semestre
+JOIN materias m ON ca.materias_id = m.id_materia
+WHERE pi.id_persona_instituto IN (
+    SELECT ca_sub.personas_institutos_id
+    FROM cargas_academicas ca_sub
+    GROUP BY ca_sub.personas_institutos_id
+    HAVING COUNT(*) = 1
+)
+ORDER BY pi.nombre_persona, s.nombre_semestre, m.nombre_materia;
+
+
+-- esta consulta cuenta la cantidad de cargas academicas que tenga dicho semestre que queramos filtrar
+SELECT s.nombre_semestre AS Semestre, COUNT(*) as Cantidad
+FROM cargas_academicas ca
+JOIN semestres s ON ca.semestres_id = s.id_semestre
+WHERE s.nombre_semestre = 'Semestre 1';
+-- en cambio esta muestra todos los semestre con su cantidad de cargas academicas o estudiantes matriculados 
+SELECT s.nombre_semestre, COUNT(ca.personas_institutos_id) AS total_estudiantes
+FROM cargas_academicas ca
+JOIN semestres s ON ca.semestres_id = s.id_semestre
+GROUP BY s.id_semestre;
+
+-- Listar las materias que están siendo cursadas por más de un estudiante en cualquier semestre
+SELECT m.nombre_materia, COUNT(ca.id_cargas_academicas) AS total_estudiantes
+FROM cargas_academicas ca
+JOIN materias m ON ca.materias_id = m.id_materia
+GROUP BY m.nombre_materia
+HAVING COUNT(ca.id_cargas_academicas) > 5;
