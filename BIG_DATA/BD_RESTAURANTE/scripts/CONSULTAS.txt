@@ -1,0 +1,53 @@
+1. Actualizar un restaurante y agregar un nuevo empleado usando updateOne() con upsert:
+
+javascript
+Copiar código
+db.restaurantes.updateOne(
+  { nombre: "Restaurante El Sabor" }, //ELEGIR EL NOMBRE DEL RESTAURANTE
+  {
+    $setOnInsert: {
+      direccion: "Calle 123, Ciudad",
+      telefono: "555-1234"
+    },
+    $addToSet: {
+      empleados: {
+        nombre: "Carlos Ramírez",   //AGRAGA AL EMPLEADO SI NO ESTA 
+        cargo: "Mesero"
+      }
+    }
+  },
+  { upsert: true }
+);
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+2. Actualizar una reserva para cambiar su estado a "confirmada":
+
+javascript
+Copiar código
+db.reservas.updateOne(
+  { _id: ObjectId("ID_RESERVA") },  //CAMBIAR POR ID DE LA RESERVA
+  {
+    $set: { estado: "confirmada" }
+  }
+);
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+3. Agregar varios platos a un pedido usando $each:
+
+javascript
+Copiar código
+db.pedidos.updateOne(
+  { _id: ObjectId("ID_PEDIDO") }, //CAMBIAR EL ID DEL PEDIDO
+  {
+    $addToSet: {
+      platos: {
+        $each: [
+          ObjectId("ID"), //CAMBIAR EL ID DEL PPLATO
+          ObjectId("ID")
+        ]
+      }
+    }
+  }
+);
