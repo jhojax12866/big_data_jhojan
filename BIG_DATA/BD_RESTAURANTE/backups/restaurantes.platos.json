@@ -1,0 +1,14 @@
+[{
+  "_id": {
+    "$oid": "671086d5340dfddc1471c254"
+  },
+  "nombre": "Carne a la plancha",
+  "precio": 10
+},
+{
+  "_id": {
+    "$oid": "671086d5340dfddc1471c255"
+  },
+  "nombre": "Cerdo en salsa",
+  "precio": 6
+}]

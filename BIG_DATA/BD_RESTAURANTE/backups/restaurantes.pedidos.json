@@ -1,0 +1,96 @@
+[{
+  "_id": {
+    "$oid": "671086f2340dfddc1471c256"
+  },
+  "clienteId": {
+    "$oid": "671085dc340dfddc1471c24e"
+  },
+  "fecha": {
+    "$date": "2024-10-17T03:39:30.135Z"
+  },
+  "platos": [
+    {
+      "$oid": "671086d5340dfddc1471c254"
+    },
+    {
+      "$oid": "671086d5340dfddc1471c255"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "671089212b3a1cb24ef36eb4"
+  },
+  "clienteId": {
+    "$oid": "671085fc340dfddc1471c250"
+  },
+  "fecha": {
+    "$date": "2024-10-17T03:48:49.195Z"
+  },
+  "platos": [
+    {
+      "$oid": "671086d5340dfddc1471c254"
+    },
+    {
+      "$oid": "671086d5340dfddc1471c255"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "67108d71875da03af476eb66"
+  },
+  "clienteId": {
+    "$oid": "671085dc340dfddc1471c24e"
+  },
+  "restauranteId": {
+    "$oid": "6710854ed64ce1bfb49aee78"
+  },
+  "platos": [
+    {
+      "platoId": {
+        "$oid": "671086d5340dfddc1471c254"
+      },
+      "nombre": "Carne a la plancha",
+      "cantidad": 2,
+      "precio": 10
+    },
+    {
+      "platoId": {
+        "$oid": "671086d5340dfddc1471c255"
+      },
+      "nombre": "Cerdo en salsa",
+      "cantidad": 1,
+      "precio": 6
+    }
+  ],
+  "total": 26,
+  "fecha": {
+    "$date": "2024-10-10T00:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67108d71875da03af476eb67"
+  },
+  "clienteId": {
+    "$oid": "671085ed340dfddc1471c24f"
+  },
+  "restauranteId": {
+    "$oid": "67108584d64ce1bfb49aee79"
+  },
+  "platos": [
+    {
+      "platoId": {
+        "$oid": "671086d5340dfddc1471c254"
+      },
+      "nombre": "Carne a la plancha",
+      "cantidad": 1,
+      "precio": 10
+    }
+  ],
+  "total": 10,
+  "fecha": {
+    "$date": "2024-10-12T00:00:00.000Z"
+  }
+}]

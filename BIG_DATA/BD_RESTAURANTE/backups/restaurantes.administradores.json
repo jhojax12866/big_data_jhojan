@@ -1,0 +1,45 @@
+[{
+  "_id": {
+    "$oid": "671083d23963da2315e2a1d1"
+  },
+  "nombre": "Johan Burbano",
+  "email": "jhxjanbur@gmail.com"
+},
+{
+  "_id": {
+    "$oid": "671083e03963da2315e2a1d2"
+  },
+  "nombre": "Camilo Vallejos",
+  "email": "camilosky@gmail.com"
+},
+{
+  "_id": {
+    "$oid": "67108753d64ce1bfb49aee7a"
+  },
+  "nombre": "Jhonier Pasos",
+  "email": "jp@example.com"
+},
+{
+  "_id": {
+    "$oid": "671091dbffcaf5550d938ee4"
+  },
+  "nombre": "Luis Rodríguez",
+  "email": "luis.rodriguez@example.com",
+  "telefono": "555-6789"
+},
+{
+  "_id": {
+    "$oid": "671091dbffcaf5550d938ee5"
+  },
+  "nombre": "Ana María Pérez",
+  "email": "ana.perez@example.com",
+  "telefono": "555-9876"
+},
+{
+  "_id": {
+    "$oid": "671091dbffcaf5550d938ee6"
+  },
+  "nombre": "Carlos Sánchez",
+  "email": "carlos.sanchez@example.com",
+  "telefono": "555-4567"
+}]

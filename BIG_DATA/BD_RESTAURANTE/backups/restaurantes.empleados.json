@@ -1,0 +1,150 @@
+[{
+  "_id": {
+    "$oid": "671087db340dfddc1471c258"
+  },
+  "nombre": "Pedro Gómez",
+  "cargo": "Mesero",
+  "restauranteId": {
+    "$oid": "6710854ed64ce1bfb49aee78"
+  }
+},
+{
+  "_id": {
+    "$oid": "671087db340dfddc1471c259"
+  },
+  "nombre": "Marta López",
+  "cargo": "Cocinero",
+  "restauranteId": {
+    "$oid": "6710854ed64ce1bfb49aee78"
+  }
+},
+{
+  "_id": {
+    "$oid": "671087db340dfddc1471c25a"
+  },
+  "nombre": "Juan Pérez",
+  "cargo": "Cajero",
+  "restauranteId": {
+    "$oid": "6710854ed64ce1bfb49aee78"
+  }
+},
+{
+  "_id": {
+    "$oid": "671087db340dfddc1471c25b"
+  },
+  "nombre": "Luisa Torres",
+  "cargo": "Mesero",
+  "restauranteId": {
+    "$oid": "6710854ed64ce1bfb49aee78"
+  }
+},
+{
+  "_id": {
+    "$oid": "671087db340dfddc1471c25c"
+  },
+  "nombre": "Carlos Vega",
+  "cargo": "Cocinero",
+  "restauranteId": {
+    "$oid": "6710854ed64ce1bfb49aee78"
+  }
+},
+{
+  "_id": {
+    "$oid": "671087e0340dfddc1471c25d"
+  },
+  "nombre": "Sofía Ramírez",
+  "cargo": "Mesero",
+  "restauranteId": {
+    "$oid": "67108584d64ce1bfb49aee79"
+  }
+},
+{
+  "_id": {
+    "$oid": "671087e0340dfddc1471c25e"
+  },
+  "nombre": "Raúl Castro",
+  "cargo": "Cocinero",
+  "restauranteId": {
+    "$oid": "67108584d64ce1bfb49aee79"
+  }
+},
+{
+  "_id": {
+    "$oid": "671087e0340dfddc1471c25f"
+  },
+  "nombre": "Gabriela Méndez",
+  "cargo": "Cajero",
+  "restauranteId": {
+    "$oid": "67108584d64ce1bfb49aee79"
+  }
+},
+{
+  "_id": {
+    "$oid": "671087e0340dfddc1471c260"
+  },
+  "nombre": "Patricia Ortiz",
+  "cargo": "Mesero",
+  "restauranteId": {
+    "$oid": "67108584d64ce1bfb49aee79"
+  }
+},
+{
+  "_id": {
+    "$oid": "671087e0340dfddc1471c261"
+  },
+  "nombre": "David Ruiz",
+  "cargo": "Cocinero",
+  "restauranteId": {
+    "$oid": "67108584d64ce1bfb49aee79"
+  }
+},
+{
+  "_id": {
+    "$oid": "671087ee340dfddc1471c262"
+  },
+  "nombre": "María Díaz",
+  "cargo": "Mesero",
+  "restauranteId": {
+    "$oid": "6710875a340dfddc1471c257"
+  }
+},
+{
+  "_id": {
+    "$oid": "671087ee340dfddc1471c263"
+  },
+  "nombre": "Enrique Gutiérrez",
+  "cargo": "Cocinero",
+  "restauranteId": {
+    "$oid": "6710875a340dfddc1471c257"
+  }
+},
+{
+  "_id": {
+    "$oid": "671087ee340dfddc1471c264"
+  },
+  "nombre": "Daniela Sánchez",
+  "cargo": "Cajero",
+  "restauranteId": {
+    "$oid": "6710875a340dfddc1471c257"
+  }
+},
+{
+  "_id": {
+    "$oid": "671087ee340dfddc1471c265"
+  },
+  "nombre": "Julio Martínez",
+  "cargo": "Mesero",
+  "restauranteId": {
+    "$oid": "6710875a340dfddc1471c257"
+  }
+},
+{
+  "_id": {
+    "$oid": "671087ee340dfddc1471c266"
+  },
+  "nombre": "Andrea Silva",
+  "cargo": "Cocinero",
+  "restauranteId": {
+    "$oid": "6710875a340dfddc1471c257"
+  }
+}]

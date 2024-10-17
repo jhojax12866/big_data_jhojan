@@ -1,0 +1,34 @@
+[{
+  "_id": {
+    "$oid": "67108db9875da03af476eb68"
+  },
+  "clienteId": {
+    "$oid": "671085dc340dfddc1471c24e"
+  },
+  "pedidos": [
+    {
+      "$oid": "67108d71875da03af476eb66"
+    }
+  ],
+  "total": 26,
+  "fechaEmision": {
+    "$date": "2024-10-10T00:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67108db9875da03af476eb69"
+  },
+  "clienteId": {
+    "$oid": "671085ed340dfddc1471c24f"
+  },
+  "pedidos": [
+    {
+      "$oid": "67108d71875da03af476eb67"
+    }
+  ],
+  "total": 10,
+  "fechaEmision": {
+    "$date": "2024-10-12T00:00:00.000Z"
+  }
+}]

@@ -1,0 +1,60 @@
+[{
+  "_id": {
+    "$oid": "671085b1340dfddc1471c248"
+  },
+  "numero": 1,
+  "capacidad": 4,
+  "restauranteId": {
+    "$oid": "6710854ed64ce1bfb49aee78"
+  }
+},
+{
+  "_id": {
+    "$oid": "671085b1340dfddc1471c249"
+  },
+  "numero": 2,
+  "capacidad": 2,
+  "restauranteId": {
+    "$oid": "6710854ed64ce1bfb49aee78"
+  }
+},
+{
+  "_id": {
+    "$oid": "671085b1340dfddc1471c24a"
+  },
+  "numero": 3,
+  "capacidad": 6,
+  "restauranteId": {
+    "$oid": "6710854ed64ce1bfb49aee78"
+  }
+},
+{
+  "_id": {
+    "$oid": "671085bf340dfddc1471c24b"
+  },
+  "numero": 1,
+  "capacidad": 4,
+  "restauranteId": {
+    "$oid": "67108584d64ce1bfb49aee79"
+  }
+},
+{
+  "_id": {
+    "$oid": "671085bf340dfddc1471c24c"
+  },
+  "numero": 2,
+  "capacidad": 2,
+  "restauranteId": {
+    "$oid": "67108584d64ce1bfb49aee79"
+  }
+},
+{
+  "_id": {
+    "$oid": "671085bf340dfddc1471c24d"
+  },
+  "numero": 3,
+  "capacidad": 6,
+  "restauranteId": {
+    "$oid": "67108584d64ce1bfb49aee79"
+  }
+}]

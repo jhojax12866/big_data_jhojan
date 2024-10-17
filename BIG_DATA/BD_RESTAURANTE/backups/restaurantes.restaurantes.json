@@ -1,0 +1,115 @@
+[{
+  "_id": {
+    "$oid": "6710854ed64ce1bfb49aee78"
+  },
+  "nombre": "milanesa",
+  "direccion": "Avenida Colombia",
+  "telefono": "555-1234",
+  "administradorId": {
+    "$oid": "671083d23963da2315e2a1d1"
+  },
+  "empleados": [
+    {
+      "nombre": "Carlos Ramírez",
+      "cargo": "Mesero"
+    },
+    {
+      "nombre": "Pedro Gómez",
+      "cargo": "Mesero"
+    },
+    {
+      "nombre": "Marta López",
+      "cargo": "Cocinero"
+    },
+    {
+      "nombre": "Juan Pérez",
+      "cargo": "Cajero"
+    },
+    {
+      "nombre": "Luisa Torres",
+      "cargo": "Mesero"
+    },
+    {
+      "nombre": "Carlos Vega",
+      "cargo": "Cocinero"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "67108584d64ce1bfb49aee79"
+  },
+  "nombre": "Cuy sabor",
+  "direccion": "Barrio el Centro",
+  "telefono": "999-999",
+  "administradorId": {
+    "$oid": "671083e03963da2315e2a1d2"
+  },
+  "empleados": [
+    {
+      "nombre": "Ana Ruiz",
+      "cargo": "Mesero"
+    },
+    {
+      "nombre": "Luis Fernández",
+      "cargo": "Cocinero"
+    },
+    {
+      "nombre": "Sofía García",
+      "cargo": "Cajero"
+    },
+    {
+      "nombre": "Mario Torres",
+      "cargo": "Mesero"
+    },
+    {
+      "nombre": "Sara López",
+      "cargo": "Cocinero"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "6710875a340dfddc1471c257"
+  },
+  "nombre": "Restaurante El Sabor",
+  "direccion": "Calle 123, Ciudad",
+  "telefono": "555-1234",
+  "administradorId": {
+    "$oid": "67108753d64ce1bfb49aee7a"
+  },
+  "empleados": [
+    {
+      "nombre": "Carlos Ramírez",
+      "cargo": "Mesero"
+    },
+    {
+      "nombre": "pepito",
+      "cargo": "Mesero"
+    },
+    {
+      "nombre": "Diego Muñoz",
+      "cargo": "Mesero"
+    },
+    {
+      "nombre": "Paula Romero",
+      "cargo": "Cocinero"
+    },
+    {
+      "nombre": "Andrea Ramírez",
+      "cargo": "Cajero"
+    },
+    {
+      "nombre": "Lucas Pérez",
+      "cargo": "Mesero"
+    },
+    {
+      "nombre": "Valeria Torres",
+      "cargo": "Cocinero"
+    },
+    {
+      "nombre": "PEDRO",
+      "cargo": "Mesero"
+    }
+  ]
+}]
